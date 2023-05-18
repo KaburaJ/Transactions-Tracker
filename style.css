@@ -1,0 +1,45 @@
+body{
+    font-size: large;
+    font-weight: 400;
+    justify-content: center;
+    font: 1em sans-serif;
+    
+}
+.transaction-app {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+  .transaction-form {
+    display: flex;
+    gap: 0.625rem;
+  }
+  
+  .transaction-form input[type="text"],
+  .transaction-form input[type="number"],
+  .transaction-form select {
+    width: 9.375rem;
+  }
+  
+  .transaction-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3125rem;
+  }
+  
+  .revenue {
+    background-color: #87b989;
+  }
+  
+  .expense {
+    background-color: #ef9a9a;
+  }
+  span{
+    display:inline-block;
+    width: 10rem;
+    height: 1.25rem;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="transaction.js" defer></script>
+</head>
+<body>
+    <div class="transaction-app">
+  <div class="transaction-form">
+    <select id="transaction-category">
+      <option value="revenue">revenue</option>
+      <option value="expense">Expense</option>
+    </select>
+    <input type="text" id="transaction-title" placeholder="Transaction Title">
+    <!-- <span dir="rtl"></span> -->
+    <input type="number" id="transaction-amount" placeholder="Amount">
+    <button id="add-transaction">Add Transaction</button>
+  </div>
+  <ul id="transaction-list"></ul>
+</div>
+
+</body>
+</html>
