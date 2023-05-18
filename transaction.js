@@ -10,7 +10,7 @@ function addTransaction() {
 
   const title = titleInput.value;
   const category = categoryInput.value;
-  const amount = parseFloat(amountInput.value);
+  const amount = amountInput.value;
 
   if (title.trim() === "" || isNaN(amount)) {
     alert("Please enter valid transaction details");
