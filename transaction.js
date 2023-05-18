@@ -50,12 +50,12 @@ function updateLocalStorage() {
     amount: parseFloat(item.children[1].textContent),
   }));
 
-  localStorage.setItem("transactions", JSON.stringify(transactions));
+  localStorage.setItem("transactions", transactions);
 }
 
 
 function loadTransactions() {
-    const transactions = JSON.parse(localStorage.getItem("transactions"));
+    const transactions = localStorage.getItem("transactions");
   
     if (transactions) {
       transactions.forEach((transaction) => {
